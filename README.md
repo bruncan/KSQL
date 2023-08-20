@@ -4,8 +4,10 @@ Instrucciones
 La tarea consiste en construir un servicio que consuma la API en tiempo real de Finnhub: https://finnhub.io/docs/api/websocket-trades y consuma actualizaciones para los siguientes símbolos: 
 •AAPL 
 •AMZN 
-•BINANCE:BTCUSDT 
+•BINANCE:BTCUSDT
+
 De modo a procesar las actualizaciones, deben seguirse los siguientes pasos: 
+
 1.Instalar un cluster Redpanda de manera local utilizando un archivo docker-compose.yml 
 2.Implementar un producer utilizando kafka-python, de acuerdo a la documentación de Redpanda y similar al ejemplo desarrollado en clase, para suscribirse a los eventos de la API. 
 3.Instalar KSQLDB modificando el archivo docker-compose.yml, de acuerdo a la documentación de Redpanda. 
