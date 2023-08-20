@@ -1,6 +1,7 @@
 Repositorio para la tarea de data streaming
 
-Instrucciones 
+Instrucciones
+
 La tarea consiste en construir un servicio que consuma la API en tiempo real de Finnhub: https://finnhub.io/docs/api/websocket-trades y consuma actualizaciones para los siguientes símbolos:
 
 •AAPL
