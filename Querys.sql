@@ -49,7 +49,7 @@ CREATE TABLE maximo_precio_por_simbolo AS
 SELECT * FROM maximo_precio_por_simbolo;
 
 --4.¿Cuál fue el mínimo precio registrado por símbolo?
-CREATE STREAM minimo_precio_por_simbolo AS
+CREATE TABLE minimo_precio_por_simbolo AS
     SELECT 
         symbol,
         MIN(price) AS minimo_precio
