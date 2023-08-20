@@ -1,9 +1,0 @@
-CREATE STREAM finnhub_trades_stream (
-    symbol STRING,
-    price DOUBLE,
-    volume DOUBLE,
-    timestamp STRING
-) WITH (
-    KAFKA_TOPIC='finnhub-trades',
-    VALUE_FORMAT='JSON'
-);
